@@ -1,0 +1,57 @@
+* { 
+    font-family: verdana;
+    /* font-weight: bold; */
+    padding: 0px;
+}
+
+body {
+    --tlo: #4C6464;
+    --text: #C5B358;
+    --ramka: #7F784E;
+    background-color: var(--tlo);
+    color: var(--text);
+}
+
+header {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.menu div {
+    margin: 0px auto;
+    margin-bottom: 40px;
+}
+
+.menu li{
+    padding: 10px;
+    display: inline-block;
+    border: solid 2px var(--ramka);
+    list-style-type: none;
+}
+
+footer {
+    margin-top: 100px;
+    padding: 0px;
+}
+
+footer ul li {
+    font-size: 10px;
+    padding: 8px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+@media (min-width: 1100px) {
+    body {
+        /* style css - duże ekrany */
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 300px) {
+    body {
+        /* style css - tel. pionowo */
+        font-size: 10px;
+        width: 90%;
+    }
+}
