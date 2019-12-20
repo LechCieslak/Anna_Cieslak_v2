@@ -8,8 +8,9 @@ body {
     --tlo: #4C6464;
     --text: #C5B358;
     --ramka: #7F784E;
-    background-color: var(--tlo);
+    background-color: black;
     color: var(--text);
+    animation: backgroundEffect 3s forwards;
 }
 
 header {
@@ -40,6 +41,13 @@ footer ul li {
     list-style-type: none;
     display: inline-block;
 }
+
+@keyframes backgroundEffect {
+    100% {
+        background-color: var(--tlo);
+    }
+}
+
 
 @media (min-width: 1100px) {
     body {
