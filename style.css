@@ -24,10 +24,17 @@ header {
 }
 
 .menu li{
+    margin-top: 6px;
     padding: 10px;
     display: inline-block;
     border: solid 2px var(--ramka);
     list-style-type: none;
+    width: 120px;
+}
+
+.menu li:hover{
+    /* padding: 8px; */
+    animation: btnEf 700ms forwards;
 }
 
 footer {
@@ -48,6 +55,11 @@ footer ul li {
     }
 }
 
+@keyframes btnEf {
+    100% {
+        padding: 6px;
+    }
+}
 
 @media (min-width: 1100px) {
     body {
