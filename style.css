@@ -33,8 +33,7 @@ header {
 }
 
 .menu li:hover{
-    /* padding: 8px; */
-    animation: btnEf 700ms forwards;
+    background-color: var(--ramka);
 }
 
 footer {
@@ -52,12 +51,6 @@ footer ul li {
 @keyframes backgroundEffect {
     100% {
         background-color: var(--tlo);
-    }
-}
-
-@keyframes btnEf {
-    100% {
-        padding: 6px;
     }
 }
 
