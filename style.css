@@ -1,6 +1,5 @@
 * { 
     font-family: verdana;
-    /* font-weight: bold; */
     padding: 0px;
 }
 
@@ -16,10 +15,12 @@ body {
 header {
     margin-top: 40px;
     margin-bottom: 40px;
+    text-align: justify;
 }
 
 .menu div {
-    margin: 0px auto;
+    margin: 0 auto;
+    width: 80%;
     margin-bottom: 40px;
 }
 
@@ -34,6 +35,10 @@ header {
 
 .menu li:hover{
     background-color: var(--ramka);
+}
+
+.head {
+    text-decoration: none;
 }
 
 footer {
