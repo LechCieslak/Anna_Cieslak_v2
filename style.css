@@ -12,6 +12,10 @@ body {
     animation: backgroundEffect 3s forwards;
 }
 
+a {
+    color: var(--text);
+}
+
 header {
     margin-top: 40px;
     margin-bottom: 40px;
@@ -30,7 +34,8 @@ header {
     display: inline-block;
     border: solid 2px var(--ramka);
     list-style-type: none;
-    width: 120px;
+    width: 80px;
+    text-align: center;
 }
 
 .menu li:hover{
@@ -64,6 +69,14 @@ footer ul li {
         /* style css - duże ekrany */
         font-size: 30px;
     }
+}
+
+@media (max-width: 575px) {
+    
+        /* pionowanie menu, żeby było zawsze linią (poziom lub pion) a nie się łamało */
+        .menu li{
+            display: block;
+        }
 }
 
 @media (max-width: 300px) {
